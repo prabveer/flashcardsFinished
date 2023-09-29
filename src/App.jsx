@@ -30,7 +30,7 @@ function App() {
    <div>
     <h1>Guess The Capital!</h1> 
     <h2>Can you guess all the states capitals?</h2>
-    <h2>Test your knowledge!</h2>
+    <h2>From 11 Cards! Test your knowledge!</h2>
     <div  className={"card"} onClick={handleClickSide} style={{backgroundColor: color[count]}}>
       {side ? frontsideData[count] : backsideeData[count]}
     </div>
