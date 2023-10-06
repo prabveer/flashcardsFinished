@@ -1,29 +1,26 @@
-# Web Development Project 2 - Flashcards
+# Web Development Project 3 - Flashcards
 
 Submitted by: Prabveer Pannu
 
-This web app: a set of flashcards that as questions to the user to check thier knowledge about state's capitals
+This web app: A set of flashcards that can be used to study, also can be used to quiz the user
 
-Time spent: 7 hours spent in total
+Time spent: 6 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [✓] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [✓] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [✓] **A list of card pairs is created**
-- [✓] **Clicking on the card shows the corresponding component of the information pair**
-- [✓] **Clicking the next button displays a random new card**
+- [✓] **The user can enter their guess in a box before seeing the flipside of the card**
+- [✓] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [✓] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [✓] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [✓] Cards have different visual styles such as color based on their category
-    green = easy
-    yellow = medium
-    red = hard
-  - [✓] *visual style implemented*
+- [X] A shuffle button is used to randomize the order of the cards
+- [✓] A user's answer may be counted as correct even when it is slightly different from the target answer - it allows the user to be correct as long as they spelled it correctly, its not cap sensitive.
+- [✓] A counter displays the user's current and longest streak of correct responses
+- [X] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
@@ -31,16 +28,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='Flashcards.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='FlashcardsPart2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://www.cockos.com/licecap/
 
 ## Notes
 
@@ -48,7 +41,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2023] [Prabveer pannu]
+    Copyright [2023] [Prabveer Pannu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
